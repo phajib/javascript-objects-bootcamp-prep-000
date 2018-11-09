@@ -4,7 +4,7 @@ var playlist = {Silverchair: 'Israel\'s Son'}
 /*updatePlaylist function
 adds the 'artistName: songTitle' key-value pair to 'playlist'*/
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist[artistName] = songTitle
+  playlist [artistName] = songTitle
   return playlist
 
   //playlist.Slowdive = 'Alison'
@@ -16,5 +16,5 @@ function updatePlaylist(playlist, artistName, songTitle){
 removes artistName from playlist*/
 function removeFromPlaylist(playlist, artistName){
   delete playlist.artistName;
-  playlist
+  return playlist
 }
