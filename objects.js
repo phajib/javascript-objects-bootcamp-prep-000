@@ -1,5 +1,5 @@
 /*playlist object*/
-var playlist = {artist-song:"Silverchair - Israel's Son"}
+var playlist = {Silverchair: 'Israel\'s Son'}
 
 /*updatePlaylist function
 adds the 'artistName: songTitle' key-value pair to 'playlist'*/
@@ -9,7 +9,7 @@ function updatePlaylist(playlist, artistName, songTitle){
 
   //playlist.Slowdive = 'Alison'
   playlist [artistName] = songTitle
-  return playlist  
+  return playlist
 }
 
 /*removeFromPlaylist function
