@@ -8,8 +8,8 @@ function updatePlaylist(playlist, artistName, songTitle){
   return playlist
 
   //playlist.Slowdive = 'Alison'
-  playlist [artistName] = songTitle
-  return playlist
+  //playlist [artistName] = songTitle
+  //return playlist
 }
 
 /*removeFromPlaylist function
